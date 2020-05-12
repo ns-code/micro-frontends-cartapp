@@ -3,7 +3,7 @@ class CartComp extends HTMLElement {
     constructor() {
         super();
 
-        this.addEventListener('load', e => {
+        window.onload = (e) => {
             this.innerHTML = this.getCartDoc(e.detail);
         });
 		
