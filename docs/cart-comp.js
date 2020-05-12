@@ -2,10 +2,6 @@ class CartComp extends HTMLElement {
 
     constructor() {
         super();
-
-        window.onload = (e) => {
-            this.innerHTML = this.getCartDoc(e.detail);
-        });
 		
         this.addEventListener('cartLoaded', e => {
             this.innerHTML = this.getCartDoc(e.detail);
