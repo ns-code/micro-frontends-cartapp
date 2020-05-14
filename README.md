@@ -1,2 +1,4 @@
 # micro-frontends-cartapp
-A frontend to be fetched by micro-frontends-homeapp
+
+To be assembled by the SPA at https://github.com/mapteb/micro-frontends-using-webcomponents
+
